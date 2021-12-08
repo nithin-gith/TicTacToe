@@ -17,7 +17,7 @@ public class TicTacToe{
         }
         printBoard();
         for(int k = 0;k<9;k++){
-            if (k%2==0){ //X-turn
+            if (k%2==0){ 
                 System.out.println("\n======\nX turn:\n======\n");
                 System.out.print("Enter Row No:");
                 row_no= scan.nextInt()-1;
